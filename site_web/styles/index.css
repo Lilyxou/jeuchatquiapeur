@@ -1,6 +1,13 @@
-
+body{
+	background-color: black
+}
 h1{
 	text-align: center;
-	color: red;
+	color: pink;
+	font: italic 3.5em "Fira Sans", serif;
+}
+p{
+	color: pink;
+	font: italic 1.2em "Fira Sans", serif;
 }
 	
