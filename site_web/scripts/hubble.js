@@ -1,11 +1,11 @@
-
-let securite = document.querySelector('h3');
-securite.textContent = "Le temps est compté, rappellez-vous.";
-
 document.querySelector('html').addEventListener('click', function() {
-    alert("arrêtez de cliquer n'importe où !!");
-	let securitebis = document.querySelector('h1');
-	securitebis.textContent = "Vous n'êtes pas en sécurité ici.";
+    alert("arrêtez de cliquer n'importe où...");
+	for (h2 of document.getElementsByTagName('h2')){
+		h2.textContent = "tic tac, tic tac.";
+	}
+	for (h4 of document.getElementsByTagName('h4')){
+		h4.textContent = "Le temps est compté, rappelez-vous";
+	}
 
 });
 
