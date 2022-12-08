@@ -1,11 +1,27 @@
 h1{
-	color: red;
+	color: purple;
 	text-align: center;
 }
+
+h2{
+	font: small-caps bold 24px/1 sans-serif;
+	text-align: center
+}
+h3{
+	font: 1.2em "Fira Sans", sans-serif;
+	text-decoration: underline purple;
+}
+h4{
+	color: purple;
+	font: 1.0em "Fira Sans", sans-serif;
+	text-indent: 5%;
+}
+p{
+	font: caption;
+}	
 div{
 	color: blue;
 	text-decoration: underline blue;
 }
-
 
 	
